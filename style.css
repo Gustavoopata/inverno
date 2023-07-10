@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+
+header {
+  height: 19vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4b93bf;
+  color: #ffffff;
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 15vw;
+}
+
+header img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+h1:hover {
+  color: #e4eef1;
+  cursor: pointer;
+  transform: scale(110%);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 40vw;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  position: relative;
+}
+
+nav a::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  background: #e4eef1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+
+header a:hover::after {
+  width: 100%;
+}
+
+.apresentacaoInverno {
+  background-color: #c5e5ef;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 58vh;
+}
+
+.apresentacaoInverno p {
+  width: 48vw;
+  font-size: 20px;
+  font-weight: 400;
+  color: #0f468c;
+}
+
+.apresentacaoInverno strong {
+  font-weight: 300;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.dataInvernoBrasil {
+  height: 43vh;
+  background-color: #4b93bf;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dataInvernoBrasil h2 {
+  width: 45vw;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.ursosPolares {
+  background-color: #c5e5ef;
+}
+
+.ursosPolares figure {
+  height: 58vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img:hover {
+  transform: scale(115%);
+  filter: blur(0.2px);
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #4b93bf;
+}
+
+#redesSociais {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nomes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.nomes a {
+  color: #ffffff;
+}
+
+.nomes a:hover {
+  color: #d1dbe3;
+}
+
+footer p {
+  text-align: center;
+  color: #ffffff;
+}
